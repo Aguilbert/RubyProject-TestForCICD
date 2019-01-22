@@ -1,0 +1,143 @@
+en:
+  locales:
+    en: "English"
+    zh-CN: "简体中文"
+  layouts:
+    users_form:
+      home: Home
+    navbar:
+      total_users: Total users
+  users:
+    signup: Sign up
+    login: Login
+    logout: Logout
+    login_first: Login First
+    has_already_logged_in: User has already logged in
+    user_panel:
+      likes: Likes
+      settings: Settings
+      check_profile: Check your profile
+    edit:
+      upload_avatar: Click and upload avatar
+      my_page: My Page
+    show:
+      loading: Loading...
+      created_at: Created at
+      songs: Songs
+      total_songs: Total Songs
+      total_comments: Total Comments
+      ago: ago
+      users_count: "%{count}"
+      songs_count: "%{count}"
+      comments_count: "%{count}"
+      no_user: The user does not exist
+    create:
+      successfully: Register successfully
+    update:
+      successfully: Profile is successfully saved
+      faild: Profile save faild
+    activate:
+      activated: User was successfully activated
+  sessions:
+    new:
+      remember_me: Remember me
+      forget_password: Forget password
+      invalid_email_password_combination: Invalid Email Password combination
+      inactivation: User is inactivation
+    create:
+      successfully: Logged in successfully
+    destroy:
+      successfully: Logout successfully
+  songs:
+    form:
+      title: Titile
+      singer: Singer(Auto fetch)
+      content: Content
+      cant_be_blank: can't be blank
+      passed: "Check passed, you can publish the song after filling the content"
+    play_list:
+      no_songs_yet: No songs yet
+    songs:
+      share_a_song: Share a song
+      recommend_songs: Recommend songs
+      loaded: All songs is loaded
+    create:
+      success: Publishing success
+      faild: Publishing faild
+    update:
+      successfully: Successfully updated
+    destroy: 
+      successfully: Song was successfully deleted
+    cant_fetch: The information of song can't be fetch
+    fetch_faild: " can't be fetch"
+  comments:
+    comments: Comments
+    no_comments_yet: No comments yet
+  notifications:
+    index:
+      notifications: Notifications
+      empty_notifications: Empty notifications
+      clearing: Clearing...
+    notification:
+      comment:
+        add_a_comment_at: add a comment at
+      mention:
+        mention_you_at: mention you at
+  password_resets:
+    create:
+      hint: You will receive an email with instructions about how to reset your password in a few minutes
+    update:
+      successfully_updated_password: Successfully updated password
+  form:
+    submit: Submit
+    submitting: Submitting...
+    save: Save
+    are_you_sure: Are you sure?
+    reset_password: Reset password
+  mailer:
+    subject:
+      welcome: Welcome to the Ting
+      reset_password: Reset Password
+      done: Your account is confirmed
+    activation:
+      welcome: Welcome
+      successfully_registered: You are successfully registered
+      your_username: Your username is
+      please_follow: Please follow
+      this_link: " this link "
+      complete: to complete the confirmation
+      congratz: Congratulations
+      you_can: Now you can
+      access: " access to the site"
+      enjoy: Enjoy it
+    reset_password:
+      header: "Hello, You have requested to reset your password"
+      body: "To choose a new password, just follow"
+  shared:
+    error_messages:
+     the_form_contains: The form contains
+  permission_denied: Permission denied
+  activerecord:
+    errors:
+      models:
+        song:
+          attributes:
+            title:
+              fetch: " can't be fetch"
+            artist:
+              fetch: " can't be fetch"
+    attributes:
+      user:
+        name: "Name"
+        email: "Email"
+        password: "Password"
+        password_confirmation: "Password confirmation"
+        bio: "Bio"
+      song:
+        s_id: "Xiami ID "
+        title: "Song title"
+        artist: "Singer"
+        content: "Content"
+        pic: "Picture link"
+      comment:
+       content: "Content"
